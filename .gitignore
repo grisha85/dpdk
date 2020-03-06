@@ -31,3 +31,11 @@ build-*
 # ignore other build directory patterns
 *-gcc*
 *-clang*
+
+# for umake
+*.o
+*.so.*
+*.a
+app/dpdk-*
+app/test/dpdk-test
+buildtools/pmdinfogen/pmdinfogen
